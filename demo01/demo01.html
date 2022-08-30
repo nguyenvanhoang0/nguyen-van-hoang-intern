@@ -89,7 +89,7 @@
      	</div>
      </div>
      <div class="main">
-     	<div class="header-top background-white flex size13">
+     	<div class="header-top background-white flex size13 between">
      		<div>
      			<ul class="flex left color-grey">
      				<li class="items-pages button-blue">Pages</li>
@@ -98,7 +98,7 @@
      			</ul>
      		</div>
      		<div class="right">
-     			<ul class="flex end-width">
+     			<ul class="flex">
      				<li class="items"><img src="svg/search.svg"></li>
      				<li class="items"><img src="svg/img.svg"></li>
      				<li class="items"><img src="svg/equalizer.svg"></li>
@@ -110,7 +110,7 @@
      			</ul>
      		</div>
      	</div>
-     	<div class="header-last flex size13 background-white">
+     	<div class="header-last flex size13 background-white between">
      		<div class="left">
 	     		<ul class="flex">
 	     			<li class="items">Dashboard</li>
@@ -119,7 +119,7 @@
 	     		</ul>
      		</div>
      		<div class="right">
-     			<ul class="flex end-width">
+     			<ul class="flex">
      				<li class="items-add-new button-blue">Today</li>
      				<li class="items color-grey">Month</li>
      				<li class="items color-grey">Year</li>
@@ -132,9 +132,9 @@
 	     	<section class="flex content">
 	     		<div class="block background-white">
 	     			<div class="head-block">
-	     				<div class="flex">
+	     				<div class="flex between">
 	     					<div class="title">Categories</div>
-	     				     <div class="title right end-width flex"><button class="size11">Export <img src="svg/arrow.svg"></button></div>
+	     				     <div class="title flex"><button class="size11">Export <img src="svg/arrow.svg"></button></div>
 	     				</div>
 	     				<div>
 	     					<img class="parabol" src="svg/parabol.svg">
@@ -175,8 +175,13 @@
 	     		</div>
 	     		<div class="block background-white">
 	     			<div class="Recent-Activities">
-	     				<p class="size17">Recent Activities</p>
-	     				<p class="text-color">890,344 Sales</p>
+	     				<div class=" flex between">
+	     					<div>
+			     				<p class="size17">Recent Activities</p>
+			     				<p class="text-color">890,344 Sales</p>
+		     				</div>
+		     				<img src="svg\dots.svg">
+	     				</div>
 	     				<div class="group-Activities">
 		     				<div class="flex ">
 		     					<div class="size14 time">08:42</div>
@@ -234,9 +239,9 @@
 	     		</div>
 	     		<div class="block-double">
 	     			<div class="mini-block background-white">
-	     				<div class="group-mini flex">
+	     				<div class="group-mini flex between">
 	     					<div class="icon "><img class="background-green" src="svg/4-block.svg"></div>
-	     					<div class="right end-width flex">
+	     					<div class=" flex">
 	     						<div class="text-icon">
 		     						<div class="size24">750$</div>
 		     						<div class="size14 text-title">Weekly Income</div>
@@ -246,9 +251,9 @@
 	     				<img class="chart" src="svg/chart.svg">
 	     			</div>
 	     			<div class="mini-block background-white">
-	     				<div class="group-mini flex">
+	     				<div class="group-mini flex between">
 	     					<div class="icon "><img class="icon-shop" src="svg/shop.svg"></div>
-	     					<div class="right end-width flex">
+	     					<div class=" flex">
 	     						<div class="text-icon">
 		     						<div class="size24">750$</div>
 		     						<div class="size14 text-title">Weekly Income</div>
@@ -261,10 +266,11 @@
 	     	</section>
 	     	<section class="flex content">
 	     		<div class="group background-white">
-	     			<div class="title-group">
-	     				<div class="size17 flex">Sales Progress 
-	     					<div class="right end-width flex"><img class=" " src="svg\dots.svg"></div>
-	     				</div>
+	     			<div class="title-group ">
+	     				<div class="size17 flex between">
+		     				<p>Sales Progress</p> 
+		     				<img class=" " src="svg\dots.svg">
+		     			</div>
 	     				<div class="items-group flex">
 		     				<div class="icon-group background-Violet">
 		     					<img src="svg/book.svg">
@@ -314,13 +320,13 @@
 	     		</div>
 	     		<div class="group background-white">
 	     			<div class="set-new-arrivals">
-	     				<div class="flex">
+	     				<div class="flex between">
 		     				<div class="text">
 		     					<div class="size18">New Arrivals</div>
 		     					<div class="text-title">More than 400+ new members</div>
 		     				</div>
-		     				<div class="right  flex">
-		     					<ul class="flex right end-width text-title">
+		     				<div class=" flex">
+		     					<ul class="flex text-title">
 		     						<li class="items-time">Month</li>
 		     						<li class="items-time">Week</li>
 		     						<li class="button-time">Day</li>
@@ -344,11 +350,11 @@
 	     			     			<div class="size14">$2,000,000</div>
 	     			     			<div class="size13 text-title">Paid</div>
 	     			     		</td>
-	     			     		<td class="process flex end-width">
+	     			     		<td class="process flex end-right">
 	     			     			<div class="items-button background-Violet color-Violet">Approved</div>
 	     			     		</td>
 	     			     		<td class="tools ">
-	     			     			<div class="flex end-width tools">
+	     			     			<div class="flex end-right tools">
 		     			     			<div class="items-tools">
 		     			     				<img src="svg/setting.svg">
 		     			     			</div>
@@ -377,11 +383,11 @@
 	     			     			<div class="size14">$4,600,000</div>
 	     			     			<div class="size13 text-title">Paid</div>
 	     			     		</td>
-	     			     		<td class="process flex end-width">
+	     			     		<td class="process flex end-right">
 	     			     			<div class="items-button background-orange color-orange ">In Progress</div>
 	     			     		</td>
 	     			     		<td class="tools ">
-	     			     			<div class="flex end-width tools">
+	     			     			<div class="flex end-right tools">
 		     			     			<div class="items-tools">
 		     			     				<img src="svg/setting.svg">
 		     			     			</div>
@@ -410,11 +416,11 @@
 	     			     			<div class="size14">$560,000</div>
 	     			     			<div class="size13 text-title">Paid</div>
 	     			     		</td>
-	     			     		<td class="process flex end-width">
+	     			     		<td class="process flex end-right">
 	     			     			<div class="items-button background-green color-green">Success</div>
 	     			     		</td>
 	     			     		<td class="tools ">
-	     			     			<div class="flex end-width tools">
+	     			     			<div class="flex end-right tools">
 		     			     			<div class="items-tools">
 		     			     				<img src="svg/setting.svg">
 		     			     			</div>
@@ -443,11 +449,11 @@
 	     			     			<div class="size14">$57,000</div>
 	     			     			<div class="size13 text-title">Paid</div>
 	     			     		</td>
-	     			     		<td class="process flex end-width">
+	     			     		<td class="process flex end-right">
 	     			     			<div class="items-button background-pink color-pink">Rejected</div>
 	     			     		</td>
 	     			     		<td class="tools ">
-	     			     			<div class="flex end-width tools">
+	     			     			<div class="flex end-right tools">
 		     			     			<div class="items-tools">
 		     			     				<img src="svg/setting.svg">
 		     			     			</div>
@@ -467,13 +473,13 @@
 	     	<section class="flex content">
 	     		<div class="comment background-white">
 		     		<div class="set-new-arrivals">
-		     			<div class="flex">
+		     			<div class="flex between">
 		     				<div class="text">
 		     					<div class="size18">New Arrivals</div>
 		     					<div class="text-title">More than 400+ new members</div>
 		     				</div>
-		     				<div class="right  flex">
-		     					<ul class="flex right end-width text-title">
+		     				<div class="flex">
+		     					<ul class="flex text-title">
 		     						<li class="button blues">New Report</li>
 		     						<li class="button reds">Create</li>
 		     					</ul>
