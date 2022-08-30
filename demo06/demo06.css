@@ -7,10 +7,9 @@
 	display: flex;
 }
 
-
-
 ul li {
 	list-style-type: none;
+	cursor: pointer;
 }
 
 .Poppins{
@@ -33,10 +32,13 @@ button img {
 .button-blue{
 	background-color: #F3F6F9;
 	color: #6993FF;
+	cursor: pointer;
 }
+
 .background-light-blue{
 	background-color: #E1F0FF;
 	color: #3699FF;
+	cursor: pointer;
 }
 
 .background-white{
@@ -46,28 +48,36 @@ button img {
 .background-orange{
 	background-color: #FFF4DE;
 	color: #bba987;
+	cursor: pointer;
 }
 
 .background-Violet{
 	color: #cbb1fe;
 	background-color: #EEE5FF;
+	cursor: pointer;
 }
 
 .background-pink{
 	color: #fcb0b9;
 	background-color: #FFE2E6;
+	cursor: pointer;
 }
 
 .background-green{
 	color: #74bbb7;
 	background-color: #C9F7F5;
+	cursor: pointer;
 }
+
 .background-blue{
 	background-color:#E1E9FF ;
+	cursor: pointer;
 }
+
 .background-black{
 	background-color: #181824;
 }
+
 .color-orange{
 	color: #FFA800;
 }
@@ -88,8 +98,7 @@ button img {
 	color: #A9A7BC;
 }
 
-
-body .color{
+ .color{
 	color: #464E5F;
 }
 
@@ -99,6 +108,10 @@ body .color{
 
 .color-grey{
 	color: #959CB6;
+}
+
+.grey{
+	color: #B5B5C3;;
 }
 
 .color-black{
@@ -117,7 +130,7 @@ body .color{
 }
 
 .size11{
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 11px;
 	line-height: 16px;
 }
@@ -145,6 +158,11 @@ body .color{
 	font-size: 18px;
 	line-height: 21px;
 }
+.size20{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+}
 .size24{
 	font-weight: 600;
 	font-size: 24px;
@@ -160,6 +178,7 @@ body .color{
 
 .logo{
 	padding: 36px 38px 37px 37px;
+	cursor: pointer;
 }
 
 .group-menu{
@@ -170,9 +189,18 @@ body .color{
 .group-menu .background-black{
     border-radius: 4px;
 }
+
 .group-menu div{
 	margin-bottom: 11px;
+	padding-bottom: 8px;
 }
+
+.group-menu ul li:hover{
+	background-color:#181824 ;
+	border-radius: 4px;
+	color: white;
+}
+
 .group-menu ul li img{
     margin: 12px 25px 8px 25px;
 }
@@ -180,11 +208,13 @@ body .color{
 .main{
     background-color: #D5D9E2;
     width: -webkit-fill-available;
-    height: 100%;
+    height: auto;
 }
+
 .header-top{
 	border-bottom: solid 1px #EEEFF3;
 }
+
 .items-pages{
 	margin: 13px 0px 16px 30px;
 	padding:8px 14px ;
@@ -196,14 +226,20 @@ body .color{
 	padding:4px 9px ;
 	border-radius: 4px;
 }
+
 .items-Actions{
 	margin: 11px 0px 11px 9px;
 	padding:6px 14px ;
 	border-radius: 4px;
 }
+
 .header-top .left .items {
 	margin: 13px 0px 16px 0px;
 	padding:8px 21px ;
+}
+
+.header-top .left .items:hover{
+	color: #8950FC ;
 }
 
 .header-top .right{
@@ -222,7 +258,6 @@ body .color{
 	background-color:  #E1F0FF;
 	margin-right: 30px;
 	color: #3699FF;
-
 }
 
 .header-last .right{
@@ -236,7 +271,9 @@ body .color{
 .header-last .right .items{
 	margin: 17px 30px 0px 9px;
 }
-
+.header-last .right .items:hover{
+	color: #8950FC ;
+}
 .xsr{
 	border-left: solid 1px #EEEFF3;
 	padding-left: 14px;
@@ -258,18 +295,21 @@ body .color{
 	border-radius: 12px;
 	margin-left: 40px;
 }
+
 .block:first-child{
 	margin-left: 0px;
 }
 
 /*---------*/
 .head-block{
-	background-color: #F64E60;
+	background-color: #3699FF;
 	border-radius: 12px;
 }
+
 .head-block .right{
-	width: 100%;
+	width: 49%;
 }
+
 .title{
 	padding:27px 30px 54px 30px;
 	color: white;
@@ -282,10 +322,10 @@ body .color{
 .parabol{
 	border-radius: 12px;
 }
+
 .card{
 	justify-content: center;
 	z-index: 3;
-
 }
 
 .child_card{
@@ -294,10 +334,18 @@ body .color{
 	z-index: 3;
 	margin: 19px 10px;
 	border-radius: 12px;
+	background-color: #F3F6F9;
+	color: #80808F;
 }
+
+.child_card:first-child{
+    margin: 0px 10px;
+}
+
 .items-card{
 	padding: 30px 15px;
 }
+
 .items-card img{
 	height: 39px;
 	width: 39px;
@@ -306,4 +354,275 @@ body .color{
 
 /*--------------*/
 
+.abstract{
+	border-radius: 12px;
+}
 
+.Weekly-Sales-Stats{
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+	position: absolute;
+	margin: 30px 20px 0 20px;
+}
+
+.Weekly-Sales-Stats >p{
+	color: #80808F;
+}
+
+.Weekly-Sales-Stats> img{
+	margin-left: 96px;
+	margin-top: 29px;
+}
+
+.rel{
+	position: relative;
+}
+
+.abs{
+	position: absolute;
+}
+
+.box{
+	margin-left: 40px;
+}
+
+.box .flex{
+	margin-top: 40px;
+}
+
+.box img{
+	padding: 9px 10px 10px 9px;
+	border-radius: 12px;
+}
+
+.box:first-child{
+	margin-left: 0px;
+}
+
+.card:first-child{
+	margin-left: 23px;
+}
+
+
+
+.text{
+	margin-left: 4px;
+}
+
+/*----------*/
+
+.title-group{
+    margin: 23px 29px;
+}
+
+.click .set .right{
+	width: 60%;
+}
+
+.title-group .right .dots{
+	margin-top: 11px;
+	height:6px;
+	width: 17px;
+}
+
+.graphs{
+	margin-top: 41px;
+	color: ;
+}
+
+.items-graphs {
+    padding: 11px;
+    border-radius: 6px;
+}
+
+.text-graphs{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.button-graphs{
+	margin: 10px 0px;
+	padding: 5px 5px;
+	border-radius: 6px;
+	color:  #80808F;
+}
+
+.right-graphs{
+	width: 38%;
+}
+
+.box-graphs{
+	margin-top: 30px;
+}
+
+.box-graphs:first-child{
+	margin-top: 0px;
+}
+/*----------*/
+
+.set:first-child{
+	width: 400px;
+	margin-left: 0px;
+}
+
+.set{
+	height: 463px;
+	border-radius: 12px;
+	width: 840px;
+	margin-left: 40px;
+}
+
+.Market tr{
+	height: 94px;
+}
+
+.product{
+	width: 115px;
+}
+
+.product img{
+	border-radius: 6px;
+}
+
+.intro{
+	width: 150px;
+}
+
+.price{
+	width: 86px;
+	text-align: right;
+}
+
+/*----------*/
+
+.add-user{
+    padding: 10px 20px;
+    background-color: #1BC5BD ;
+    border-radius: 6px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.text-user{
+	margin: 4px 0px 0px 7px;
+	color: white;
+}
+
+.set .click .right{
+	width: 76%;
+}
+
+tr td input{
+	height: 25px;
+	width: 25px;
+	border: none;
+	border-radius: 6px;
+	background-color: #F3F6F9;
+}
+
+.check{
+	width: 45px;
+}
+.authors{
+	width: 346px;
+}
+.company{
+	width: 155px;
+}
+.progess{
+    width: 120px;
+}
+.action{
+	width: 103px;
+}
+
+.checkbox tr{
+	border-bottom: 1px solid #E5EAEE;
+	height: 72px;
+}
+
+.avata{
+	height: 50px;
+	width: 50px;
+	padding: 10px 5px 0px 5px;
+	background-color: #F3F6F9 ;
+	border-radius: 6px;
+}
+
+.authors .text{
+	margin: 10px;
+}
+
+.percent{
+	margin-top: 5px;
+	width: 110px;
+	height: 5px;
+	border-radius: 5px;
+}
+
+.percent-65{
+	width: 81px;
+	height: 5px;
+	border-radius: 5px;
+	background-color:#FFA800 ;
+}
+
+.percent-83{
+	width: 95px;
+	height: 5px;
+	border-radius: 5px;
+	background-color:#1BC5BD ;
+}
+
+.percent-47{
+	width: 67px;
+	height: 5px;
+	border-radius: 5px;
+	background-color:#8950FC ;
+}
+
+.percent-71{
+	width: 87px;
+	height: 5px;
+	border-radius: 5px;
+	background-color:#F64E60 ;
+}
+
+.action img{
+	cursor: pointer;
+	margin-left: 10px;
+	padding: 8px;
+	border-radius: 6px;
+	background-color:#F3F6F9 ;
+}
+
+/*------------*/
+
+.list{
+	height: 180px;
+	width: 400px;
+	border-radius: 12px;
+	margin-left: 40px;
+}
+
+.list:first-child{
+	margin-left: 0px;
+}
+
+.elip{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 12px;
+}
+
+.box-list{
+	cursor: pointer;
+	margin: 31px 22px;
+}
+
+.box-list img {
+	height: 52px;
+	width: 52px;
+}

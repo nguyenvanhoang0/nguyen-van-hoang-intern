@@ -14,6 +14,7 @@
 
 ul li {
 	list-style-type: none;
+	cursor: pointer;
 }
 
 .Poppins{
@@ -35,6 +36,7 @@ button img {
 .button-blue{
 	background-color: #F3F6F9;
 	color: #6993FF;
+	cursor: pointer;
 }
 
 .background-white{
@@ -44,24 +46,29 @@ button img {
 .background-orange{
 	background-color: #FFF4DE;
 	color: #bba987;
+	cursor: pointer;
 }
 
 .background-Violet{
 	color: #cbb1fe;
 	background-color: #EEE5FF;
+	cursor: pointer;
 }
 
 .background-pink{
 	color: #fcb0b9;
 	background-color: #FFE2E6;
+	cursor: pointer;
 }
 
 .background-green{
 	color: #74bbb7;
 	background-color: #C9F7F5;
+	cursor: pointer;
 }
 .background-blue{
 	background-color:#E1E9FF;
+	cursor: pointer;
 }
 
 
@@ -148,11 +155,15 @@ body .color{
 	font-weight: 600;
 	font-size: 24px;
 }
+
+/*--------------*/
+
 .menu{
 	width: 265px;
 	height: 1500px;
 	background-color: #1E1E2D;
 }
+
 .main{
     background-color: #D5D9E2;
     width: -webkit-fill-available;
@@ -176,7 +187,8 @@ body .color{
 	width: 24px;
 	height: 24px;
 	margin-top: 20px;
-	margin-left: px;
+	margin-left: 65px;
+	cursor: pointer;
 }
 
 
@@ -429,6 +441,7 @@ body .color{
 }
 .icon-shop{
 	background-color: #E1F0FF;
+	cursor: pointer;
 }
 .chart{
 	margin-top: 8px;
@@ -560,6 +573,7 @@ table .items img{
 	background-color: #F3F6F9;
 	border-radius: 6px;
 	margin: 0px 0px 0px 10px;
+	cursor: pointer;
 }
 .items-tools{
 	height: 16px;
